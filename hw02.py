@@ -2,9 +2,6 @@
 #  Complete the function "read_two_ints" below:
 def read_two_ints():
     """this gives two functions"""
-    # ADD a Docstring for this function
-    # the return shown below is a placeholder to make sure this runs
-    # TODO: complete the function instead of the line shown below
     x = int(input("give me x: "))
     y= int(input("give me y: "))
     y=int(y)
@@ -16,25 +13,35 @@ def read_two_ints():
 def compute_multadd(a, b):
     """multiplies a and b, then adds a and b"""
     mult_ab = a*b
-    print("mult result: ", mult_ab)
+    print("mult result:", mult_ab)
     add_ab = a + b
-    print("add result: ", add_ab)
-          # ADD a Docstring for this function
-    # the pass shown below is a placeholder to make sure this runs
-    # TODO: complete the function instead of the line shown below
+    print("add result:", add_ab)
+
+    return mult_ab/add_ab
+
       
 
 # Task 3.1:
 #  Complete the function "print_fancy" below:
 def print_fancy(a, b, ab_multadd):
+   
+    print("****************")
+    print("RESULTS:")
+    print("first number:", a)
+    print("second number:", b)
+    print("third number:", ab_multadd)
+    print("================")
+    
     # ADD a Docstring for this function
     # the pass shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
-    pass
+
 
 def main ():
-    a, b = read_two_ints()
-    compute_multadd(a, b)
+    x, y = read_two_ints()
+    xy_multadd = compute_multadd(x, y)
+    print_fancy(x,y, xy_multadd)
+    
     # ADD a Docstring for this function
     # Task 1.2:
     #  Add one line below to call read_two_ints (note that it returns two values)
