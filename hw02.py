@@ -1,3 +1,9 @@
+# ------------------------------------------------------
+#        Name: (KIKU NAGAI-VELASQUEZ)
+#       Peers: (NONE)
+#  References: (NONE)
+# ------------------------------------------------------
+
 # Task 1.1:
 #  Complete the function "read_two_ints" below:
 def read_two_ints():
@@ -29,7 +35,7 @@ def print_fancy(a, b, ab_multadd):
     print("RESULTS:")
     print("first number:", a)
     print("second number:", b)
-    print("third number:", ab_multadd)
+    print("multadd result:", ab_multadd)
     print("================")
     
     # ADD a Docstring for this function
@@ -38,9 +44,10 @@ def print_fancy(a, b, ab_multadd):
 
 
 def main ():
+    """Task 1.2 stores two variables from read_two_ints"""
     x, y = read_two_ints()
-    xy_multadd = compute_multadd(x, y)
-    print_fancy(x,y, xy_multadd)
+    xy_multadd = compute_multadd(x,y)
+    print_fancy(x, y, xy_multadd)
     
     # ADD a Docstring for this function
     # Task 1.2:
@@ -70,3 +77,11 @@ def main ():
 # Do not modify these two lines
 if __name__ == "__main__":
     main()
+    
+    
+"""- [x] you added your name to the top comments of the python file
+- [ ] runs without syntax errors (or -50%)
+- [x] adds a few small but informative comments (or -5%)
+- [x] adds docstrings to each function (or -5%)
+- [ ] Passes all tests (or lose 15% per missed test). If you do not pass all tests, do not check this box
+- [x] You checked the correct boxes"""
