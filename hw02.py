@@ -44,34 +44,16 @@ def print_fancy(a, b, ab_multadd):
 
 
 def main ():
-    """Task 1.2 stores two variables from read_two_ints"""
+    """the func stores two variables from read_two_ints"""
     x, y = read_two_ints()
+    
+    """the function is given xy and returns the multadd of them"""
     xy_multadd = compute_multadd(x,y)
+    
+    """print_fancy func prints formatting for our x, y and multadd"""
     print_fancy(x, y, xy_multadd)
     
-    # ADD a Docstring for this function
-    # Task 1.2:
-    #  Add one line below to call read_two_ints (note that it returns two values)
-    #  the call should provide no arguments
-    #  store the returned values into two variables: x and y
 
-    # TODO: add your call instead of this line
-
-    # Task 2.2:
-    #  Add one line below to call multadd (note that it returns one value)
-    #  the call should provide the arguments x, and y you obtained above;
-    #  store the returned value in a variable called xy_multadd
-
-    # TODO: add your call instead of this line
-
-    # Task 3.2:
-    #  Complete The line below to call print_fancy
-    #  the call should provide the arguments x, y, and xy_multadd you obtained above;
-
-    # TODO: add your call instead of this line
-
-
-    # Do not modify this final print statement
     print("The End")
 
 # Do not modify these two lines
@@ -80,8 +62,8 @@ if __name__ == "__main__":
     
     
 """- [x] you added your name to the top comments of the python file
-- [ ] runs without syntax errors (or -50%)
+- [x] runs without syntax errors (or -50%)
 - [x] adds a few small but informative comments (or -5%)
 - [x] adds docstrings to each function (or -5%)
-- [ ] Passes all tests (or lose 15% per missed test). If you do not pass all tests, do not check this box
+- [x] Passes all tests (or lose 15% per missed test). If you do not pass all tests, do not check this box
 - [x] You checked the correct boxes"""
