@@ -30,7 +30,7 @@ def compute_multadd(a, b):
 # Task 3.1:
 #  Complete the function "print_fancy" below:
 def print_fancy(a, b, ab_multadd):
-   
+    """the func stores two variables from read_two_ints"""
     print("****************")
     print("RESULTS:")
     print("first number:", a)
